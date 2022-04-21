@@ -1,0 +1,60 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label,legend,  caption, tbody, tfoot, thead, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video{ /* reset css a reprendre */
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+
+body{
+font-family: 'folks-lightregular';
+font-size: 15px; 
+line-height: 20px;
+}
+
+.container{
+    background: #55a5dc;
+}
+
+header{
+background: #55a5dc;
+/* padding: 10px 0 5px 5px; */
+padding: 10px 0 23px 0;
+/* border-bottom: 2px solid #fff; */
+}
+
+
+.conteneur{
+max-width: 1170px;
+margin: 0 auto;
+/* border: 1px solid red; */
+}
+
+
+input{ background: #fff; color: #000; }
+.input-calcul, .input-calcul2{
+letter-spacing: 2px;
+text-align: center;
+font-size: 14px;
+padding: 3px 3px 3px 20px;
+width: 75%;
+/* border: 0; */
+border-radius: 5px;
+border: 1px solid #ccc;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.input-calcul:focus {
+    border-color: #66afe9;
+    box-shadow: 0 1px 1px #fff inset, 0 0 8px #fff;
+    outline: 0 none;
+}
+.ligne-vide td{ padding: 0px; }
+
+/************************************************************************************************************************************************************************************/
+/* TVA */
+	#tva .appliqueTauxTVA input{ width: 15%;  border: 0; border-radius: 5px; }
+	#tva .appliqueTauxTVA input:hover{ cursor: pointer; background: #303030; color: #fff; }
+	#tva .calculatrice-tva{  border-radius: 10px;  }
+	#tva span.addition, #tva span.egal { font-size: 30px; }
+	#tauxTVA{ max-width: 20%;}
