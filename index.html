@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div>
+    <button type="button" id="action" class="col-md-4 offset-md-4 btn btn-info"> Charger fichier TXT</button>
+    </div>
+    <script>
+    $(document).ready(function(){
+        $('#action').click(function(){
+            $.ajax({
+                url : "info.txtqs", // URL de destination 
+                //dataType : "text", 
+                success : function(data) { 
+                   // $('#demo').html(data);  
+                    console.log(data);
+                },
+                error:function(xhr){
+                    console.log(xhr);
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html>
