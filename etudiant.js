@@ -88,11 +88,11 @@ $.ajax({
                compteur ++;
             })
             moyenne = notes/compteur;
+           // moyenne = notes/valeur.notes.length;
             console.log(notes, compteur+" avec une moyenne de " + moyenne.toFixed(2));
         })
     },
     error:function (xhr) {
-        console.log(xhr);
         if (xhr.status == 404) {
         $(".liste").html("<img src='https://cdn.dribbble.com/users/1291613/screenshots/3337571/homer_404_800x600.png'>")
         }
