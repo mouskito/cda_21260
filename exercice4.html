@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercice 4 en jQuery</title>
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+<!--
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+-->
+<script src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/exercice4.js"></script>
+
+<style type="text/css">
+	.mauvais{
+    color: red;
+}
+
+.mauvais-message{
+    background-color: #f2dede;
+}
+
+</style>
+
+</head>
+<body>
+	<div class="container">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		<hr><hr>
+
+		<form class="row g-3" onsubmit="verif(e)">
+		  <div class="col-md-6">
+		    <label for="nom" class="form-label">Nom</label>
+		    <input type="text" class="form-control" id="nom">
+		  </div>
+		  <div class="col-md-6">
+		    <label for="prenom" class="form-label">Prénom</label>
+		    <input type="text" class="form-control" id="prenom">
+		  </div>
+
+		  <div class="col-md-6">
+		    <label for="email" class="form-label">Email</label>
+		    <input type="email" class="form-control" id="email">
+		  </div>
+		  <div class="col-md-6">
+		    <label for="Tél" class="form-label">Tél</label>
+		    <input type="text" class="form-control" id="tel">
+		    <div id="error"></div>
+		  </div>
+		  <div class="col-12">
+			  <label for="floatingTextarea2">Comments</label>
+			  <textarea maxLength =20 class="form-control" placeholder="Leave a comment here" id="message" style="height: 100px"></textarea>
+			   <p id="compteur">0 mots | 0 Caractere / 200</p>
+			</div>
+		  <div class="col-12">
+		    <button type="submit" class="btn btn-primary btn_envoie">Sign in</button>
+		  </div>
+		</form>
+
+		<style type="text/css">
+		.block{
+			text-align: center;
+		    border: 2px solid;
+		    margin: 10% auto;
+		    width: 60%;
+		    padding: 5%;
+		}
+	</style>
+	<div class="block">
+		Merci <b id="nom_ok"></b>, votre message a été bien envoyé
+		<div>
+			<img src="img/info.png" alt="">
+		</div>
+	</div>
+	</div>
+
+</body>
+</html>
