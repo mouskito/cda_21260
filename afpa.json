@@ -1,0 +1,47 @@
+{
+    "stagiaire":[
+      {
+       "nom":"Camara",
+       "prenom":"Moussa",
+       "email":"test@test.fr"
+      },
+      {
+       "nom":"Simpson",
+       "prenom":"Hommer",
+       "email":"homer@test.fr"
+      },
+      {
+       "nom":"Dupon",
+       "prenom":"Jean",
+       "email":"jean@test.fr"
+      },
+      {
+         "nom":"Simpson",
+       "prenom":"Bart",
+       "email":"test@test.fr"
+      }
+     ],
+     "stagiairse":[
+        {
+         "nom":"Camara",
+         "prenom":"Moussa",
+         "email":"test@test.fr"
+        },
+        {
+         "nom":"Simpson",
+         "prenom":"Hommer",
+         "email":"homer@test.fr"
+        },
+        {
+         "nom":"Dupon",
+         "prenom":"Jean",
+         "email":"jean@test.fr"
+        },
+        {
+           "nom":"Simpson",
+         "prenom":"Bart",
+         "email":"test@test.fr"
+        }
+       ]
+}
+    

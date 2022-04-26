@@ -1,0 +1,28 @@
+{
+    "etudiants": [
+        {
+            "nom":"Camara",
+            "prenom":"Moussa",
+            "email":"test@test.fr",
+            "notes" : [15,5,7,12]
+           },
+           {
+            "nom":"Simpson",
+            "prenom":"Hommer",
+            "email":"homer@test.fr",
+            "notes" : [1,5,17,19]
+           },
+           {
+            "nom":"Dupon",
+            "prenom":"Jean",
+            "email":"jean@test.fr",
+            "notes" : [11,5,8,1]
+           },
+           {
+              "nom":"Simpson",
+            "prenom":"Bart",
+            "email":"test@test.fr",
+            "notes" : [9,6,15,13,12,19,18]
+           }
+    ]
+}
